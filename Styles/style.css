@@ -182,6 +182,13 @@ body.active {
     justify-content: center;
     align-items: center;
   }
+  footer{
+    background: #F2F2F2;
+  }
+  .footer-desc{
+    font-size: 14px;
+    text-align: start;
+  }
 @media only screen and (min-width: 375px) {
   
     .bg-img{
