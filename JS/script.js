@@ -62,7 +62,7 @@ const sectors = [
 function createSectorCard() {
   sectors.forEach((sector) => {
     const sectorCard = `
-      <div class="sector-card column-gap-4 p-1 d-flex align-items-center flex-md-column  row-gap-md-2 p-md-4 ">
+      <div class="sector-card column-gap-4 p-1 d-flex align-items-center flex-md-column  row-gap-md-2 p-md-4 " id="sector-card${sector.id}">
       <img src="${sector.image}" alt="icon${sector.id}" >
       <h5 class="sector-title text-main m-0">${sector.title}</h5>
       <p class="sector-desc m-0">${sector.description}
@@ -72,6 +72,12 @@ function createSectorCard() {
     const element = document.querySelector('.sectors');
     element.innerHTML += sectorCard;
   });
+  
+  for(let i=1;i<=3;i+=1){
+  const sect=document.querySelector(`#sector-card${i}`);
+sect.classList.remove('column-gap-4');
+sect.classList.add('column-gap-3');
+  }
 }
 createSectorCard();
 
