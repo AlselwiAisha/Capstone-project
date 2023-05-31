@@ -62,7 +62,7 @@ I'm using mainly html and css for building this project.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> coming soon
+>[Live Demo](https://alselwiaisha.github.io/Capstone-project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
