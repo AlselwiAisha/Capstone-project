@@ -104,6 +104,25 @@ body.active {
     color: #585858;
     text-decoration: none;
   }
+  
+  .sector{
+    width: 100%;
+    background: url(../Images/net-seamless-pattern.png), #33363f;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .sector-card{
+    
+  background-color: rgba(255, 255, 255, 0.2);
+  }
+  .sector-title{
+    text-align: center;
+    color: #ec5242;
+  }
+  .sector-desc {
+    text-align: center;
+    color: #d3d3d3;
+  }
  
 @media only screen and (min-width: 375px) {
   
@@ -124,6 +143,26 @@ body.active {
             font-size: 1.5rem;
             color: #ec5242;
           }
+          
+     .sector-card img{
+        width: 12% !important;
+      }
+      .sector-title{
+width: 26%;
+      font-size: 14px;
+      font-weight: 300;;
+        text-align: start;padding-left: 0;
+      }
+      .sector-desc{
+        width: 63%;
+        padding-left: 3px;
+        font-size: 13px;
+        text-align: start;
+      }
+     
+      .btn-container{
+        background-color: #ec5242;
+      }
     }    
     
   @media only screen and (min-width: 768px) {
@@ -158,4 +197,27 @@ body.active {
      .headline-text{
        width: 60%;
      }
+     
+     .sector-card img{
+        width: 25% !important;
+      }
+      .sector-title{
+        width: 100%;
+        font-size: 18px;
+        text-align: center;
+      }
+      .sector-desc{
+        width: 200px;
+        font-size: 16px;
+        
+        text-align: center;
+      }
+      .see-all {
+        text-transform: uppercase;
+        color: #f7f7f7;
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: 25px;
+      }
+      
     }
