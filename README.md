@@ -50,8 +50,6 @@ I'm using mainly html and css for building this project.
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
 - **[Home_Page]**
 - **[About_Page]**
 - **[Mobile_Desctop_Approach]**
@@ -62,7 +60,7 @@ I'm using mainly html and css for building this project.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
->[Live Demo](https://alselwiaisha.github.io/Capstone-project/)
+> [Live Demo](https://alselwiaisha.github.io/Capstone-project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
