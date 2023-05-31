@@ -60,3 +60,58 @@
     border: 3px solid #ffffff;
     background-color: #F7F7F7;
   }
+  
+@media only screen and (min-width: 375px) {
+  
+    .bg-img{
+    display: none;
+    }
+    .bg-img2{
+        display: block;
+        }
+        .headline-text {
+            width: 100%;
+        }
+        .headline-title h1 {
+            font-size: 2.2rem;
+            font-weight: 900;
+        }    
+        .headline-title h2 {
+            font-size: 1.5rem;
+            color: #ec5242;
+          }
+    }    
+    
+  @media only screen and (min-width: 768px) {
+    nav {
+     background-color: white;
+   }
+ 
+    .bg-img {
+
+       width: 100%;
+        display: block;
+       height: 100vh;
+     }
+   .bg-img2{
+       display: none;
+       }
+   .nav-item .nav-link:hover {
+       color: #ec5242;
+     }
+  
+     
+   .headline-title h1 {
+       font-size: 4rem;
+       font-weight:900 ;
+       width: 80%;
+        }
+     
+     .headline-title h2 {
+       font-size: 1.8rem;
+       color: #ec5242;
+     }
+     .headline-text{
+       width: 60%;
+     }
+    }
