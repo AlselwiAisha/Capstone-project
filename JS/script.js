@@ -76,3 +76,89 @@ function createSectorCard() {
     });
   }
   createSectorCard();
+  
+  /*--------------Member--------------------*/
+  const members = [
+    {  id: 1,
+      img: './Images/1.jpg',
+      name: 'Safa Rawiah',
+      title: 'General Manager',
+      desc: 'Safa Rawiah oversees the daily operations of a business segment, department, or stand-alone retail location.',
+     },
+    {  id: 2,
+      img: './Images/2.jpg',
+      name: 'Ali Alwazeer',
+      title: 'Program Coordinator',
+      desc: 'Ali Alwazeer plans, implements, and evaluates different programs.',
+     },
+     {
+      id: 3,
+      img: './Images/5.jpg',
+      name: 'Dr.Sawsan Al Refai',
+      title: 'Board Member',
+      desc: 'Dr.Sawsan Al Refaioversee directs business operations, sets policies, and approves business decisions.',
+     },
+     {
+      id: 4,
+      img: './Images/4.jpg',
+      name: 'Waleed Mohammed Al-Sabri',
+      title: 'Coordinator of Monitoring and Evaluation',
+      desc: 'Waleed Al-Sabri Monitors and evaluats activities.',
+     },
+     {
+      id: 5,
+      img: './Images/3.jpg',
+      name: 'Amal Al-Kabsi',
+      title: 'Director, Monitoring and Evaluation unit',
+      desc: 'Amal Al-Kabsi provide advice to the Resident and Humanitarian Coordinator',
+     },
+     {
+      id: 6,
+      img: './Images/6.jpg',
+      name: 'Suhaib Jaber',
+      title:'Communications Assistant',
+      desc: "Suhaib Jaber helps the Communications Director on the company's internal and public websites and social media",
+     },
+    
+  ]
+  function createMembers() {
+    const element = document.querySelector('.membersContainer');
+    members.forEach((member) => {
+      const mm = `
+      <div class="member  d-flex col-md-6 d-md-flex" id="member${member.id}">
+                        <div class="d-flex flex-column me-4">
+                            <img src="./Images/istockphoto.jpg" alt="background"
+                                class="backgtound-img">
+                            <img src="${member.img}" alt="image${member.id}" class="memberImg">
+                        </div>
+                        <div class="content ms-2">
+                            <h2 class="name"> ${member.name}</h2>
+                            <p class="title text-main py-1 small">${member.title}</p>
+                            <div class="line2 my-1"></div>
+                            <p class="desc py-1">${member.desc}
+                            </p>
+                        </div>
+                    </div>
+        `;
+      element.innerHTML += mm;
+     });
+     for(let i=1 ;i<=members.length;i++)
+     {
+      let member_=document.querySelector(`#member${i}`);
+      if (i>2){
+        member_.classList.add('d-none');
+      }
+     }
+  }
+  createMembers() ;
+  const moreBtn=document.querySelector('.btn-more');
+  moreBtn.addEventListener("click",()=>{
+    for(let i=1 ;i<=members.length;i++)
+    {
+     let member_=document.querySelector(`#member${i}`);
+     if (i>2){
+      member_.classList.remove('d-none');
+     }
+    }
+    
+  })
