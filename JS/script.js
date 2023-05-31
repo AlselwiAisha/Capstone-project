@@ -72,11 +72,11 @@ function createSectorCard() {
     const element = document.querySelector('.sectors');
     element.innerHTML += sectorCard;
   });
-  
-  for(let i=1;i<=3;i+=1){
-  const sect=document.querySelector(`#sector-card${i}`);
-sect.classList.remove('column-gap-4');
-sect.classList.add('column-gap-3');
+
+  for (let i = 1; i <= 3; i += 1) {
+    const sect = document.querySelector(`#sector-card${i}`);
+    sect.classList.remove('column-gap-4');
+    sect.classList.add('column-gap-3');
   }
 }
 createSectorCard();

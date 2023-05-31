@@ -38,10 +38,11 @@
   padding: 0;
   margin: 0;
 }
-.footrlogoImg{
+
+.footrlogoImg {
   filter: grayscale(0) brightness(0);
- 
 }
+
 .navbar-toggler,
 .navbar-toggler:active {
   border: none !important;
@@ -137,11 +138,13 @@ body.active {
   text-align: center;
   color: #d3d3d3;
 }
+
 .line {
   width: 50px;
   border: 0.5px solid #ec5242;
   margin: 10px auto;
 }
+
 .member .memberImg {
   height: 120px;
   width: 120px;
@@ -379,6 +382,7 @@ footer {
   .nav-item .nav-link:hover {
     color: #ec5242;
   }
+
   .headline-title h1 {
     font-size: 4rem;
     font-weight: 900;
@@ -429,7 +433,6 @@ footer {
   .about-footer .footrlogoImg {
     filter: grayscale(100%);
     width: 200px;
-
   }
 
   .about-footer {
