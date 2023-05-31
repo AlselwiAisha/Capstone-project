@@ -167,6 +167,21 @@ body.active {
     font-size: 20px;
     color: #ec5242;
   }
+  .partners {
+    width: 100%;
+    background-color: #414245;
+    min-height: 40vh;
+  }
+  .partner-text{
+    color: #cccccc;
+  }
+  .partner-logo{
+    filter: brightness(80%);
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 @media only screen and (min-width: 375px) {
   
     .bg-img{
@@ -206,6 +221,9 @@ width: 26%;
       .btn-container{
         background-color: #ec5242;
       }
+      .partner-logo{
+        width: 110px;
+   }
     }    
     
   @media only screen and (min-width: 768px) {
@@ -262,5 +280,8 @@ width: 26%;
         font-weight: 400;
         margin-top: 25px;
       }
-      
+      .partner-logo{
+        width: 170px;
+        
+   }
     }
