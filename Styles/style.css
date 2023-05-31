@@ -189,6 +189,71 @@ body.active {
     font-size: 14px;
     text-align: start;
   }
+  
+  /*-------------about page-------------*/
+  .about-headline-title{
+    width: 100%;
+    color: #ec5242;
+  }
+  .about-headline-title h1{
+    width: 50%;
+    font-size: 60px;
+    font-weight: 900;
+  }
+  .prtfl-sec {
+    background-color: white;
+    border-bottom: 2px solid rgb(228, 228, 228);
+  }
+  
+  .prtfl-sec h2 {
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+  }
+  
+  .prtfl-sec p {
+    line-height: 1.4rem;
+  }
+  
+  .logo-section {
+    min-height: 55vh;
+    background-color: white;
+    border-bottom: 2px solid rgb(228, 228, 228);
+  }
+  
+  .logo-section h2 {
+    font-size: 1.8rem;
+    line-height: 1.2rem;
+  }
+  
+  .logo-section p {
+    line-height: 1.4rem;
+  }
+  
+  .logo-box {
+    margin: 50px;
+    padding: 50px;
+    border: 1px solid rgb(228, 228, 228);
+  }
+.lCard {
+  height: 250px;
+  width: 95%;
+  background:
+    linear-gradient(#f5511dc1, #ff5b10bd),url(../Images/YLDF-img.jpeg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.rCard {
+  height: 250px;
+  width: 95%;
+  background:
+    linear-gradient(#f5511dc1, #ff5b10bd),url(../Images/YLDF-mul-img.jpeg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
 @media only screen and (min-width: 375px) {
   
     .bg-img{
@@ -231,6 +296,13 @@ width: 26%;
       .partner-logo{
         width: 110px;
    }
+   .about-headline-title h1{
+    width: 100%;
+   font-size: 40px;
+    }
+    .logo-box{
+        width: 95%;
+    }
     }    
     
   @media only screen and (min-width: 768px) {
@@ -291,4 +363,18 @@ width: 26%;
         width: 170px;
         
    }
+   .logo-box{
+    width: 50%;
+}
+   .about-footer .logoImg{
+    filter: grayscale(100%);
+width: 200px;
+   }
+   .about-footer {
+    background-color: #414245;
+  }
+
+  .about-footer p {
+    color: white;
+  }
     }
