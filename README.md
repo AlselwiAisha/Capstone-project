@@ -107,25 +107,10 @@ To run the project, execute the following command:
 
 To run tests, run the following command:
 
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
 ### Deployment
 
 You can deploy this project using:
 
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -174,8 +159,6 @@ If you like this project feel free to contact
 - Original design idea by [Cindy Chin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) in Behance.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
 
 <!-- LICENSE -->
 
