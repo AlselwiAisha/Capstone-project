@@ -142,7 +142,7 @@ function createMembers() {
         `;
     element.innerHTML += mm;
   });
-  for (let i = 1; i <= members.length; i++) {
+  for (let i = 1; i <= members.length; i += 1) {
     const member1 = document.querySelector(`#member${i}`);
     if (i > 2) {
       member1.classList.add('d-none');
@@ -152,7 +152,7 @@ function createMembers() {
 createMembers();
 const moreBtn = document.querySelector('.btn-more');
 moreBtn.addEventListener('click', () => {
-  for (let i = 1; i <= members.length; i++) {
+  for (let i = 1; i <= members.length; i += 1) {
     const member = document.querySelector(`#member${i}`);
     if (i > 2) {
       member.classList.remove('d-none');
