@@ -27,19 +27,15 @@
 
 # 📖 [Capstone-project] <a name="about-project"></a>
 
-> It is a first capstone project in which we have to learn how to set up linters and working with git flow and working with mobile version.
-
 **[Capstone-project]** is a first capstone project in Microverse.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-I'm using mainly html and css for building this project.
+I'm using mainly html, css and JavaScript for building this project.
 
-> <details>
-
-  <summary>Client</summary>
+ <summary>Client</summary>
   <ul>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
@@ -49,8 +45,6 @@ I'm using mainly html and css for building this project.
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-
-> Describe between 1-3 key features of the application.
 
 - **[Home_Page]**
 - **[About_Page]**
@@ -62,7 +56,7 @@ I'm using mainly html and css for building this project.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> coming soon
+> [Live Demo](https://alselwiaisha.github.io/Capstone-project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -105,29 +99,23 @@ To run the project, execute the following command:
 - Open index.html page of cloned repository in your local browser.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### Run tests
 
 To run tests, run the following command:
 
-<!--
-Example command:
+```sh
+  npx stylelint "**/*.{css,scss}"
+```
 
 ```sh
-  bin/rails test test/models/article_test.rb
+  npx eslint .
 ```
---->
 
 ### Deployment
 
 You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
+- github pages
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -173,11 +161,9 @@ If you like this project feel free to contact
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse team to provide Figma Template for Portfolio Website.
+- Original design idea by [Cindy Chin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) in Behance.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
 
 <!-- LICENSE -->
 

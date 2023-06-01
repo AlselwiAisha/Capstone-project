@@ -2,11 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Lato, sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .banner {
-  height: 6vh;
   background-color: #414245;
 }
 
@@ -16,7 +15,7 @@
 }
 
 .navbar {
-  height: 9vh;
+  height: 10vh;
   margin: 0;
   padding: 0 !important;
 }
@@ -34,10 +33,14 @@
 
 .logoImg {
   filter: grayscale(0) brightness(0);
-  width: 250px;
-  height: 250px;
+  width: 50px;
+  height: 50px;
   padding: 0;
   margin: 0;
+}
+
+.footrlogoImg {
+  filter: grayscale(0) brightness(0);
 }
 
 .navbar-toggler,
@@ -55,6 +58,7 @@
 }
 
 .headline-title h1 {
+  font-family: "Roboto Condensed", sans-serif;
   text-transform: uppercase;
   background-image: linear-gradient(#ec5242, rgba(255, 42, 0, 0.66)), url(../Images/Bg.jpg);
   -webkit-background-clip: text;
@@ -122,7 +126,7 @@ body.active {
 }
 
 .sector-card {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.077);
 }
 
 .sector-title {
@@ -133,6 +137,12 @@ body.active {
 .sector-desc {
   text-align: center;
   color: #d3d3d3;
+}
+
+.line {
+  width: 50px;
+  border: 0.5px solid #ec5242;
+  margin: 10px auto;
 }
 
 .member .memberImg {
@@ -149,8 +159,10 @@ body.active {
 }
 
 .member .title {
-  font-size: 15px;
-  color: #f78c89;
+  font-size: 14px;
+  color: #ec5b4b;
+  font-style: italic;
+  font-weight: 700;
 }
 
 .line2 {
@@ -217,6 +229,7 @@ footer {
 }
 
 .about-headline-title h1 {
+  font-family: "Roboto Condensed", sans-serif;
   width: 50%;
   font-size: 60px;
   font-weight: 900;
@@ -275,6 +288,21 @@ footer {
   background-repeat: no-repeat;
 }
 
+.lCard:hover,
+.rCard:hover {
+  cursor: pointer;
+  filter: drop-shadow(4px 7px 0 #d9d9d9);
+  transform: translateY(-10px);
+  transition: all ease-in 0.5s;
+}
+
+.sector-card:hover {
+  border: 1px solid white;
+  transform: translateY(-5px);
+  cursor: pointer;
+  transition: all ease-in 0.5s;
+}
+
 @media only screen and (min-width: 375px) {
   .bg-img {
     display: none;
@@ -319,6 +347,7 @@ footer {
 
   .btn-container {
     background-color: #ec5242;
+    border: none;
   }
 
   .partner-logo {
@@ -401,7 +430,7 @@ footer {
     width: 50%;
   }
 
-  .about-footer .logoImg {
+  .about-footer .footrlogoImg {
     filter: grayscale(100%);
     width: 200px;
   }
