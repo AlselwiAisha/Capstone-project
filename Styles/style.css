@@ -43,9 +43,11 @@
   padding: 0;
   margin: 0;
 }
+
 .sector-card img {
   width: 12% !important;
 }
+
 .footrlogoImg {
   filter: grayscale(0) brightness(0);
 }
@@ -350,8 +352,6 @@ footer {
     color: #ec5242;
   }
 
-
-
   .sector-title {
     width: 26%;
     font-size: 14px;
@@ -423,22 +423,25 @@ footer {
   .headline-text {
     width: 60%;
   }
-.sector-card{
-  width: 20% !important;
-  height: 35vh;
-}
-.sector-card img {
-  width: 25% !important;
-}
-   .sector-title {
+
+  .sector-card {
+    width: 20% !important;
+    height: 33vh;
+  }
+
+  .sector-card img {
+    width: 25% !important;
+  }
+
+  .sector-title {
     width: 100%;
-    font-size: 1.6vw;
+    font-size: 1.3vw;
     text-align: center;
   }
 
   .sector-desc {
     width: 75%;
-    font-size: 1.3vw;
+    font-size: 1.1vw;
     text-align: center;
   }
 
