@@ -26,7 +26,7 @@
 
 .bg-img,
 .bg-img2 {
-  height: 80vh;
+  height: 100%;
   width: 100%;
   object-fit: cover;
   position: absolute;
@@ -43,7 +43,9 @@
   padding: 0;
   margin: 0;
 }
-
+.sector-card img {
+  width: 12% !important;
+}
 .footrlogoImg {
   filter: grayscale(0) brightness(0);
 }
@@ -140,6 +142,8 @@ body.active {
 }
 
 .sector-title {
+  width: 40%;
+  font-size: 3vw;
   font-weight: 700;
   text-align: center;
   color: #ec5242;
@@ -346,9 +350,7 @@ footer {
     color: #ec5242;
   }
 
-  .sector-card img {
-    width: 12% !important;
-  }
+
 
   .sector-title {
     width: 26%;
@@ -408,9 +410,9 @@ footer {
   }
 
   .headline-title h1 {
-    font-size: 4.3rem;
+    font-size: 4.5vw;
     font-weight: 900;
-    width: 80%;
+    width: 90%;
   }
 
   .headline-title h2 {
@@ -421,20 +423,22 @@ footer {
   .headline-text {
     width: 60%;
   }
-
-  .sector-card img {
-    width: 25% !important;
-  }
-
-  .sector-title {
+.sector-card{
+  width: 20% !important;
+  height: 35vh;
+}
+.sector-card img {
+  width: 25% !important;
+}
+   .sector-title {
     width: 100%;
-    font-size: 18px;
+    font-size: 1.6vw;
     text-align: center;
   }
 
   .sector-desc {
-    width: 200px;
-    font-size: 16px;
+    width: 75%;
+    font-size: 1.3vw;
     text-align: center;
   }
 
