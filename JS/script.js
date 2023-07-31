@@ -65,7 +65,7 @@ function createSectorCard() {
       <div class="sector-card column-gap-4 p-1 d-flex align-items-center flex-md-column  row-gap-md-2 p-md-4 " id="sector-card${sector.id}">
       <img src="${sector.image}" alt="icon${sector.id}" >
       <h5 class="sector-title text-main m-0">${sector.title}</h5>
-      <p class="sector-desc m-0">${sector.description}
+      <p class="sector-desc m-0 main-font-color">${sector.description}
       </p>
   </div>
   `;
