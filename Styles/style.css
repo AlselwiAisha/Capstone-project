@@ -13,7 +13,9 @@
   text-decoration: none;
   color: #d3d3d3;
 }
-
+.main-font-color{
+  color: #272A31;
+}
 .navbar {
   height: 12vh;
   margin: 0;
@@ -59,7 +61,7 @@
 }
 
 .headline-title h1 {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Cocogoose", sans-serif;
   text-transform: uppercase;
   background-image: linear-gradient(#ec5242, rgba(255, 42, 0, 0.66)), url(../Images/Bg.jpg);
   -webkit-background-clip: text;
@@ -70,7 +72,10 @@
   border: 3px solid #fff;
   background-color: #f7f7f7;
 }
-
+.text-sec{
+  color: #595959;
+  font-weight: 900;
+}
 /* -------------------mobile menu---------------------- */
 
 .mobil-menu {
@@ -230,7 +235,7 @@ footer {
 }
 
 .about-headline-title h1 {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Cocogoose", sans-serif;
   width: 50%;
   font-size: 60px;
   font-weight: 900;
@@ -390,7 +395,7 @@ footer {
   }
 
   .headline-title h1 {
-    font-size: 4rem;
+    font-size: 4.3rem;
     font-weight: 900;
     width: 80%;
   }
