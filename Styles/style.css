@@ -13,9 +13,11 @@
   text-decoration: none;
   color: #d3d3d3;
 }
-.main-font-color{
-  color: #272A31;
+
+.main-font-color {
+  color: #272a31;
 }
+
 .navbar {
   height: 12vh;
   margin: 0;
@@ -72,10 +74,12 @@
   border: 3px solid #fff;
   background-color: #f7f7f7;
 }
-.text-sec{
+
+.text-sec {
   color: #595959;
   font-weight: 900;
 }
+
 /* -------------------mobile menu---------------------- */
 
 .mobil-menu {
@@ -241,13 +245,16 @@ footer {
   font-size: 60px;
   font-weight: 900;
 }
-.about-headline-text{
+
+.about-headline-text {
   border: 2px solid #e8e8e8;
-  background-color: #FFFFFF;
+  background-color: #fff;
 }
-.w-text{
-font-weight: 700;
+
+.w-text {
+  font-weight: 700;
 }
+
 .prtfl-sec {
   background-color: white;
   border-bottom: 2px solid rgb(228, 228, 228);
